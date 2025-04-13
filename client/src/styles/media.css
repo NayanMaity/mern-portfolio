@@ -1,0 +1,590 @@
+@media (max-width: 575px) {
+    #my-content {
+        width: 90%;
+        margin: auto;
+        padding: 0px;
+        display: block !important;
+    }
+
+    #side-intro {
+        width: 90%;
+        margin: auto;
+        position: static;
+        transform: none;
+        margin-top: 30px;
+        padding: 30px;
+    }
+
+    #side-intro #name-logo h3 {
+        font-size: 27px;
+    }
+
+    #side-intro #name-logo p {
+        font-size: 17px;
+    }
+
+    #side-intro #profile-img {
+        padding: 20px 0px;
+    }
+
+    #side-intro #side-info h5 {
+        font-size: 14px;
+    }
+
+    #side-intro .copy {
+        font-size: 13px;
+    }
+
+    #side-intro #side-social {
+        max-width: 200px;
+        width: 100%;
+        padding: 10px 0px;
+        margin: auto;
+    }
+
+    #side-intro #side-social #side-social-box {
+        width: 40px;
+        height: 40px;
+    }
+
+    #side-intro #side-social #side-social-box a {
+        font-size: 14px;
+    }
+
+    #side-navbar {
+        display: none !important;
+    }
+
+    #nav-toggle-btn {
+        display: block;
+        right: 35px;
+    }
+
+    #mobile-nav ul {
+        padding: 30px;
+        /* gap: 15px;
+		 */
+    }
+
+    #mobile-nav ul p {
+        font-size: 22px;
+    }
+
+    #mobile-nav ul li a {
+        font-size: 17px;
+        font-weight: 500;
+        gap: 10px;
+    }
+
+    #mobile-nav ul li i {
+        font-size: 22px;
+    }
+
+    #mobile-menu-social {
+        padding: 0px 30px !important;
+    }
+
+    #mobile-menu-social p {
+        font-size: 22px;
+    }
+
+    #main {
+        margin: auto;
+        padding: 0px;
+        /* width: 100%;
+		 */
+        height: auto;
+    }
+
+    .main-subtitle {
+        margin-bottom: 35px;
+    }
+
+    .section-heading h5 {
+        width: auto;
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+
+    #home {
+        padding: 60px 20px;
+    }
+
+    #home #home-heading {
+        height: 200px;
+        padding-bottom: 25px;
+    }
+
+    #home #home-heading h1 {
+        font-size: 45px;
+    }
+
+    #home #home-heading h5 {
+        font-size: 27px;
+    }
+
+    #home p {
+        width: auto;
+    }
+
+    #home .h-btn {
+        flex-direction: column;
+        align-items: start !important;
+        gap: 20px;
+    }
+
+    #home .h-btn .h-to-c-btn {
+        margin-top: 20px;
+    }
+
+    #about {
+        padding: 30px 20px;
+    }
+
+    #about p {
+        width: auto;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    #resume {
+        padding: 30px 20px;
+    }
+
+    #resume .resume-area .resume-box p {
+        width: auto;
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    #resume #resume-pills .my-nav-link {
+        margin-bottom: 20px;
+    }
+
+    #resume #my-education,
+    #resume #my-experience {
+        padding: 0px 5px;
+    }
+
+    #resume .resume-area {
+        margin-top: 20px;
+        padding: 0px 0px 0px 20px;
+    }
+
+    #resume .resume-area .resume-box h3 {
+        font-size: 21px;
+        color: #fff;
+        font-weight: 300;
+    }
+
+    #resume .resume-area .resume-box::before {
+        left: -28px;
+    }
+
+    #services {
+        padding: 30px 20px;
+    }
+
+    #services .service-box {
+        padding: 22px;
+    }
+
+    #services .service-box h3 {
+        font-size: 17px;
+    }
+
+    #services .service-box h3 i {
+        font-size: 25px;
+    }
+
+    #services .service-box p {
+        font-size: 14px;
+    }
+
+    #skill {
+        padding: 30px 20px;
+    }
+
+    #skill #my-skills-info {
+        width: 100%;
+        height: auto;
+        margin: 35px 0px;
+        gap: 35px;
+    }
+
+    #portfolio {
+        padding: 30px 20px;
+    }
+
+    #portfolio #featured-projects .project-box .project-title {
+        font-size: 15px;
+        line-height: 23px;
+        padding: 0px 10px;
+    }
+
+    #portfolio #featured-projects .project-box .project-tech {
+        padding: 15px 10px 5px;
+        gap: 10px;
+    }
+
+    #contact {
+        padding: 30px 20px;
+    }
+
+    #contact .contact-info h5 {
+        font-size: 15px;
+    }
+
+    #contact .contact-social h5 {
+        font-size: 14px;
+    }
+
+    #to-top {
+        right: 35px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #my-content {
+        width: 90%;
+        margin: auto;
+        padding: 0px;
+        display: block !important;
+    }
+
+    #side-intro {
+        width: 520px;
+        margin: auto;
+        position: static;
+        transform: none;
+        margin-top: 30px;
+        padding: 50px;
+    }
+
+    #side-intro #name-logo h3 {
+        font-size: 27px;
+    }
+
+    #side-intro #name-logo p {
+        font-size: 17px;
+    }
+
+    #side-intro #profile-img {
+        padding: 50px;
+    }
+
+    #side-intro #side-info h5 {
+        font-size: 25px;
+    }
+
+    #side-intro .copy {
+        font-size: 16px;
+    }
+
+    #side-intro #side-social {
+        width: 280px;
+        margin: auto;
+        padding: 15px 30px;
+    }
+
+    #side-navbar {
+        display: none !important;
+    }
+
+    #nav-toggle-btn {
+        display: block;
+    }
+
+    #main {
+        margin: auto;
+        padding: 0px;
+        /* width: 100%;
+		 */
+        height: auto;
+    }
+
+    .section-heading h5 {
+        width: 500px;
+        font-size: 38px;
+    }
+
+    #home,
+    #about,
+    #services,
+    #skill,
+    #resume,
+    #portfolio,
+    #contact {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #home {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    #home #home-heading {
+        height: 200px;
+        padding-bottom: 25px;
+    }
+
+    #home #home-heading h1 {
+        font-size: 50px;
+    }
+
+    #home #home-heading h5 {
+        font-size: 42px;
+    }
+
+    #about p {
+        width: auto;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    #resume .resume-area .resume-box p {
+        width: auto;
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    #services .service-box {
+        padding: 30px;
+    }
+
+    #services .service-box h3 {
+        font-size: 20px;
+    }
+
+    #services .service-box h3 i {
+        font-size: 25px;
+    }
+
+    #services .service-box p {
+        font-size: 14px;
+    }
+
+    #portfolio #featured-projects .project-box .project-tech {
+        padding: 15px 0px 5px 10px;
+    }
+
+    #portfolio #featured-projects .project-box .project-title {
+        font-size: 14px;
+        line-height: 23px;
+        padding: 0px 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #my-content {
+        width: 90%;
+        margin: auto;
+        padding: 0px;
+        display: block !important;
+    }
+
+    #side-intro {
+        width: 700px;
+        margin: auto;
+        position: static;
+        transform: none;
+        margin-top: 30px;
+        padding: 50px;
+    }
+
+    #side-intro #name-logo h3 {
+        font-size: 35px;
+    }
+
+    #side-intro #name-logo p {
+        font-size: 25px;
+    }
+
+    #side-intro #profile-img {
+        padding: 50px;
+    }
+
+    #side-intro #side-info h5 {
+        font-size: 25px;
+    }
+
+    #side-intro .copy {
+        font-size: 16px;
+    }
+
+    #side-intro #side-social {
+        width: 350px;
+        margin: auto;
+        padding: 20px 55px;
+    }
+
+    #side-navbar {
+        display: none !important;
+    }
+
+    #nav-toggle-btn {
+        display: block;
+    }
+
+
+
+    #main {
+        margin: auto;
+        padding: 0px;
+        /* width: 100%;
+		 */
+        height: auto;
+    }
+
+    .section-heading h5 {
+        width: 650px;
+    }
+
+    #home,
+    #about,
+    #services,
+    #skill,
+    #resume,
+    #portfolio,
+    #contact {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #home {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    #home #home-heading {
+        height: auto;
+        padding-bottom: 25px;
+    }
+
+    #home #home-heading h1 {
+        font-size: 60px;
+    }
+
+    #home #home-heading h5 {
+        font-size: 44px;
+    }
+
+    #about p {
+        width: 625px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    #resume .resume-area .resume-box p {
+        width: 450px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    #services .service-box h3 i {
+        font-size: 35px;
+        color: var(--color-brand);
+    }
+
+    #services .service-box p {
+        margin-bottom: 30px;
+        font-size: 16px;
+        color: var(--color-p);
+    }
+
+    #skill #my-skills-info .skill-box .skill-title {
+        font-size: 16px;
+    }
+
+    #portfolio #featured-projects .project-box .project-title {
+        font-size: 16px;
+        line-height: 23px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    #side-intro {
+        width: 300px;
+    }
+
+    #side-intro #name-logo h3 {
+        font-size: 20px;
+    }
+
+    #side-intro #name-logo p {
+        font-size: 12px;
+    }
+
+    #side-intro #side-info h5 {
+        font-size: 18px;
+    }
+
+    #side-intro #side-social {
+        padding: 15px 20px;
+    }
+
+    #main {
+        margin-left: 300px;
+        margin-right: 70px;
+        padding: 45px 45px 0px;
+    }
+
+    #home,
+    #about,
+    #services,
+    #skill,
+    #resume,
+    #portfolio,
+    #contact {
+        padding: 45px 45px 0px;
+    }
+
+    #home #home-heading {
+        height: 280px;
+    }
+
+    #home #home-heading h1 {
+        font-size: 64px;
+    }
+
+    #home #home-heading h5 {
+        font-size: 41px;
+    }
+
+    #home p {
+        width: 425px;
+        font-size: 14px;
+    }
+
+    #home .h-to-p-btn {
+        width: 150px;
+        height: 150px;
+    }
+
+    #home .h-to-p-btn img {
+        width: 83%;
+    }
+
+    #home .h-to-p-btn i {
+        font-size: 35px;
+    }
+
+    #side-navbar {
+        right: 40px;
+    }
+
+    #to-top {
+        right: 40px;
+    }
+}
+
+/* @media (min-width: 1201px) and (max-width: 1400px) {
+	 #home {
+		 #home-heading {
+			 height: 280px;
+		}
+	}
+}
+ */
