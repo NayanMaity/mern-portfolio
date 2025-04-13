@@ -22,21 +22,21 @@ function App() {
   const [contact, setContact] = useState({});
   const [projects, setProjects] = useState([]);
 
+  const BASE_URL = process.env.REACT_APP_API_BASE_URL;
+
   useEffect(() => {
-    // Fetch about info
-    fetch("http://localhost:5000/api/about")
+    // Fetch data from backend
+    fetch(`${BASE_URL}/api/about`)
       .then(res => res.json())
       .then(setAbout)
       .catch(err => console.error("Error fetching About:", err));
 
-    // Fetch contact info
-    fetch("http://localhost:5000/api/contact")
+    fetch(`${BASE_URL}/api/contact`)
       .then(res => res.json())
       .then(setContact)
       .catch(err => console.error("Error fetching Contact:", err));
 
-    // Fetch project data
-    fetch("http://localhost:5000/api/project")
+    fetch(`${BASE_URL}/api/project`)
       .then(res => res.json())
       .then(setProjects)
       .catch(err => console.error("Error fetching Projects:", err));
@@ -44,22 +44,36 @@ function App() {
     // Typed.js
     const typedScript = document.createElement("script");
     typedScript.src = "https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js";
+    typedScript.async = true;
     typedScript.onload = () => {
-      new window.Typed("#auto-type", {
-        strings: ["Developer.", "Professional Coder."],
-        typeSpeed: 50,
-        backSpeed: 50,
-        loop: true
-      });
+      if (window.Typed) {
+        new window.Typed("#auto-type", {
+          strings: ["Developer.", "Professional Coder."],
+          typeSpeed: 50,
+          backSpeed: 50,
+          loop: true
+        });
+      }
     };
     document.body.appendChild(typedScript);
 
     // WOW.js
     const wowScript = document.createElement("script");
     wowScript.src = "https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js";
-    wowScript.onload = () => new window.WOW().init();
+    wowScript.async = true;
+    wowScript.onload = () => {
+      if (window.WOW) {
+        new window.WOW().init();
+      }
+    };
     document.body.appendChild(wowScript);
-  }, []);
+
+    // Cleanup
+    return () => {
+      document.body.removeChild(typedScript);
+      document.body.removeChild(wowScript);
+    };
+  }, [BASE_URL]);
 
   useScrollSpy();
 
